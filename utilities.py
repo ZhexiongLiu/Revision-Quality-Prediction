@@ -1115,8 +1115,7 @@ def extract_sentence(text):
     return match_str
 
 def get_essay_sentences(df, type="evidence"):
-    # openai.api_key = "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"
-    openai.api_key = "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"
+    openai.api_key = ""
 
     # df = df.loc[20,:]
 
@@ -1216,8 +1215,7 @@ def get_essay_sentences(df, type="evidence"):
     return df
 
 def get_essay_sentences_new(df, type="evidence"):
-    # openai.api_key = "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"
-    # openai.api_key = "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"
+    openai.api_key = ""
 
     openai.api_type = "azure"
     openai.api_base = "https://erevise.openai.azure.com/"
