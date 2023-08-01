@@ -38,6 +38,5 @@ python main.py \
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2023.bea-1.24",
     pages = "275--287",
-    abstract = "The ability to revise in response to feedback is critical to students{'} writing success. In the case of argument writing in specific, identifying whether an argument revision (AR) is successful or not is a complex problem because AR quality is dependent on the overall content of an argument. For example, adding the same evidence sentence could strengthen or weaken existing claims in different argument contexts (ACs). To address this issue we developed Chain-of-Thought prompts to facilitate ChatGPT-generated ACs for AR quality predictions. The experiments on two corpora, our annotated elementary essays and existing college essays benchmark, demonstrate the superiority of the proposed ACs over baselines.",
 }
 ```
